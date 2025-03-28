@@ -1,0 +1,57 @@
+{
+  "name": "AsistenteConfiA-ALL-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "axios": "^1.7.9",
+    "framer-motion": "^12.4.7",
+    "jspdf": "^3.0.1",
+    "jwt-decode": "^4.0.0",
+    "lottie-react": "^2.4.1",
+    "openai": "^4.63.0",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-markdown": "^9.0.3",
+    "react-router-dom": "^6.28.0",
+    "react-webcam": "^7.2.0",
+    "three": "^0.173.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "eslint-config-react-app": "^7.0.1",
+    "react-scripts": "^5.0.1"
+  }
+}

@@ -1,0 +1,125 @@
+h1 {
+    border-bottom: 1px solid white;
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+ 
+  form {
+    background: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 30px 50px;
+  }
+ 
+  input {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+  radio {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+
+  select{
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+ 
+  label {
+    color: #3d3d3d;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+ 
+  .error {
+    color: red;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 30px;
+  }
+ 
+
+
+  button[type="button"] {
+    padding: 5px;
+    background: #516391;
+    color: white;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+  
+  input[type="submit"]:hover,
+  button[type="button"]:hover {
+    background: #bf1650;
+    color: white;
+    text-transform: none;
+  }
+  
+  input[type="submit"],
+  .button {
+    background: #ec5990;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px; /* Ajusta el margen superior */
+    padding: 10px 15px; /* Reduce el padding para hacer el botón más pequeño */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    letter-spacing: 1px; /* Reducir el espaciado entre letras */
+    border-radius: 5px; /* Ajuste de bordes redondeados */
+    width: auto; /* Ajusta el ancho al contenido, elimina la anchura fija del 25% */
+    cursor: pointer;
+    border: none;
+  }
+  
+  input[type="submit"]:hover,
+  .button:hover {
+    background: #bf1650; /* Color de fondo en hover */
+    color: white;
+    text-transform: none; /* Evitar transformaciones adicionales en hover */
+  }
+.cam{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .centerActions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .chat-message h2 {
+      font-size: 1.5em;
+      color: #007bff;
+    }
+    
+    .chat-message p {
+      margin-bottom: 10px;
+    }  
+
+    body {
+      font-family: 'Inter', sans-serif !important;
+    }
